@@ -22,7 +22,7 @@ function formatName(){
 
 const user = {
   firstName = 'Kevin',
-  lastName = 'OSullivan',
+  lastName = 'OSullivan'
 };
 
 const element = {
