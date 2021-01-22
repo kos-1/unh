@@ -25,6 +25,13 @@ const user = {
   lastName = 'OSullivan',
 };
 
+const element = {
+  <h1>{formatName(user)}</h1>
+}
+
+ReactDOM.render(element,document.getElementById('root'));
+
+
 
 
 export default withAuthenticator(App);^
