@@ -16,4 +16,15 @@ function App() {
   );
 }
 
-export default withAuthenticator(App);
+function formatName(){
+  return user.firstName + ' ' + user.lastName;
+}
+
+const user = {
+  firstName = 'Kevin',
+  lastName = 'OSullivan',
+};
+
+
+
+export default withAuthenticator(App);^
